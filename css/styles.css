@@ -1,0 +1,79 @@
+/* Meggan Smith, Lesson 3 Start CSS, WEB 210.0001 */
+
+
+/* 
+https://coolors.co/dbcdc6-ead7d1-dd99bb-7b506f-1f1a38
+--pale-silver: #dbcdc6ff; 219, 205, 198         -grey tan
+--champagne-pink: #ead7d1ff; 234, 215, 209      -light pink/beige
+--kobi: #dd99bbff; 221, 153, 187                -pink
+--twilight-lavender: #7b506fff; 123, 80, 111    -mauve purple
+--dark-purple: #1f1a38ff; 31, 26, 56            -dark dark purple
+*/
+
+/* Global Style
+----------------------------------*/
+body {
+        color: #1f1a38ff;
+}
+a {
+        color: #ead7d1ff;
+}
+a:hover {
+        text-decoration: none;
+}
+
+
+
+
+/* Profile
+---------------------------------*/
+header {
+    background: #7b506fff;
+    color: #ead7d1ff;
+}
+
+
+/* Projects
+----------------------------------*/
+.projects {
+    background: #dd99bbff;
+    
+}
+img {
+    width: 300px;
+}
+.projects a {
+    color: #1f1a38ff;
+
+}
+.projects .btn {
+    color: #ead7d1ff;
+    background: #7b506fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+.projects .btn:hover {
+    background: rgba(123, 80, 111, 80%);
+}
+
+/* Work Experience
+----------------------------------*/
+.work-experience {
+    background: #dbcdc6ff;
+}
+
+
+/* Education
+----------------------------------*/
+
+
+
+
+/* Contact 
+----------------------------------*/
+footer {
+    background: #7b506fff;
+    color: #ead7d1ff;
+}
+
