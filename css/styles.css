@@ -46,6 +46,7 @@ h1 {
     font-family: 'Dancing Script', cursive;;
     font-size: 110px;
     line-height: 1.2;
+    padding-bottom: 20px;
 }
 h2 {   
     font-size: 45px;
@@ -57,6 +58,56 @@ h1, h2 {
     
 }
 
+/*    Navigation Menu Bar    */
+body {
+    background: #dbcdc6ff;
+
+}
+.navigation-bar ul {
+    text-align: left;   /*looks better than center or to the right without a logo added to the left- when add logo make this home icon? */
+    list-style: none;
+}
+.navigation-bar ul li {
+    font: bold 18px/21px 'Della Respira', serif;
+    display: inline-block;
+    position: relative;
+    padding: 10.5px 25px;
+    background: #dbcdc6ff;
+    color:#1f1a38ff;
+    border-radius: 4pt;  /*keeps with project buttons */
+    cursor: pointer;
+    font-variant: small-caps;
+}
+.navigation-bar ul li:hover {
+    /*background: #7b506fff;
+    color:#dbcdc6ff;*/
+     background: #7b506fff; /* These look better than pink */
+     color: #dbcdc6ff;
+}
+.navigation-bar ul li ul {
+    padding: 0;
+    position: absolute;
+    top: 43px;       /* Keeps submenu from bumping into Work Experience tab */
+    left: -10000px;
+    width: 200px;
+}
+.navigation-bar ul li ul li {
+    display: block;
+    background: #7b506fff;
+    color: #dbcdc6ff;
+    /* background: #dd99bbff; 
+    color: #1f1a38ff; */
+    border-radius: 4px;    /* Match with hover background shape */
+}
+.navigation-bar ul li ul li:hover {
+    /*background: #dd99bbff; */
+    background: #dbcdc6ff; 
+    color: #1f1a38ff;
+}
+.navigation-bar ul li:hover ul {
+    display: block;
+    left: 0px;
+}
 
 /* Profile
 ---------------------------------*/
@@ -113,7 +164,9 @@ img {
 /* Education
 ----------------------------------*/
 
-
+.education {
+    background: #dd99bbff;
+}
 
 
 /* Contact 
